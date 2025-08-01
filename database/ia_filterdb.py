@@ -83,6 +83,7 @@ async def save_file(media):
     file_name = re.sub(r"\s+", " ", file_name)    
     
     primary_db_size = await check_db_size(db, _db_stats_cache_primary)
+    print(f"Primary DB Size - {primary_db_size} And Multiple Db - {MULTIPLE_DB}")
     use_secondary = False
     saveMedia = Media
     exists_in_primary = await Media.count_documents({'file_id': file_id}, limit=1)
