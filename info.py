@@ -31,7 +31,7 @@ FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/cShkPjcZ/x.jpg')).split()
 DONATE_IMG = environ.get("DONATE_IMG", "https://graph.org/file/3768bd857b7991d7bc72e-e9f5779b867af7dc2e.jpg")
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6914788581 1976581598').split()] 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002269913541').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002269913541 -1002693892638').split()]
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002245108673'))  
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002245108673'))  
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002611312335'))  
