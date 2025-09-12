@@ -368,4 +368,30 @@ Requested by : {message.from_user.mention}</b>"""
 
 ‼️ <b>ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴅᴏɴᴀᴛɪɴɢ.</b>
 """
-    
+
+    TRIAL_COMPLETED_TEXT = """
+🎬 **Free Trial Completed!** 🎬
+
+Hey there! 👋
+
+Your **3 free trials** have been completed. Thank you for trying our service! 🙏
+
+🌟 **Want Unlimited Access?**
+Upgrade to **Premium** now and enjoy:
+• ✅ Unlimited movie downloads
+• ✅ HD & 4K quality options  
+• ✅ Latest releases first
+• ✅ No waiting time
+• ✅ Priority support
+
+💰 **Premium Plans:**
+• Monthly: ₹99/month
+• Yearly: ₹999/year (Save 17%!)
+
+📸 **How to Upgrade:**
+1. Make payment via UPI/PayTM
+2. Click the button below to send screenshot
+3. Get instant activation!
+
+Ready to unlock unlimited entertainment? 🚀
+"""  
