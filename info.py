@@ -18,8 +18,8 @@ def is_enabled(value, default):
 # Api ids
 
 SESSION = environ.get('SESSION', 'media_search')
-API_ID = int(environ.get('API_ID', '24942826'))
-API_HASH = environ.get('API_HASH', 'e3e2f3b65ef58634139ccd27d6b7d8cb')
+API_ID = int(environ.get('API_ID', '21192260'))
+API_HASH = environ.get('API_HASH', '00a7970cc207941bca998dcd58bfe554')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -38,16 +38,16 @@ DONATE_IMG = environ.get("DONATE_IMG", "https://graph.org/file/3768bd857b7991d7b
 
 # Admins and channel info
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6914788581 1976581598').split()] 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002269913541 -1002693892638').split()]
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002245108673'))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002245108673'))  
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002245108673'))
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002611312335'))  
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6914788581 7072137630').split()] 
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003097535591').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003077640562'))  
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003077640562'))  
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1003077640562'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002926305422'))  
 MOVIE_UPDATE_NOTIFICATION = bool(environ.get("MOVIE_UPDATE_NOTIFICATION", False))
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002253933263')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+bZFqbCxTU0kzNTU1')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002272016564')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+7e7jpfbA2580MTZl')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 
 # File Limit
 
@@ -68,16 +68,16 @@ DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "432"))
 
 # Channel links
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+TGqBUP3rvd0xN2M1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Hollywood_Movies_2025_hd')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/L_uciBot')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+WRL4fzzm5S9lY2Jl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+wysJJ-qrzF1jMWU1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+7e7jpfbA2580MTZl')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Ruler_boy')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+7e7jpfbA2580MTZl')
 
 # Auth Channels
 
-AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002159274943") # add multiple channels here, separated by single space
+AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "") # add multiple channels here, separated by single space
 AUTH_CHANNEL = [int(ch) for ch in AUTH_CHANNEL.strip().split()] if AUTH_CHANNEL else []
-AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002189976586') # add multiple channels here, separated by single space
+AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '') # add multiple channels here, separated by single space
 AUTH_REQ_CHANNEL = [int(ch) for ch in AUTH_REQ_CHANNEL.strip().split()] if AUTH_REQ_CHANNEL else []
 
 # Some other settings 
@@ -91,8 +91,8 @@ PAID_STREAM = bool(environ.get('PAID_STREAM', True))
 # shortner infos
 
 IS_VERIFY = is_enabled('IS_VERIFY', False)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002679851383'))
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002679851383'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1003077640562'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1003077640562'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
