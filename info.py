@@ -68,7 +68,7 @@ DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "432"))
 
 # Channel links
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+wysJJ-qrzF1jMWU1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_new_movies_2025')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+7e7jpfbA2580MTZl')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Ruler_boy')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+7e7jpfbA2580MTZl')
@@ -85,7 +85,7 @@ AUTH_REQ_CHANNEL = [int(ch) for ch in AUTH_REQ_CHANNEL.strip().split()] if AUTH_
 REACTIONS = ["👀", "🔥", "😍", "😇", "⚡", "🆒", "👻", "😈"]
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), True)
 PM_SEARCH = bool(environ.get('PM_SEARCH', True)) 
-EMOJI_MODE = bool(environ.get('EMOJI_MODE', False)) 
+EMOJI_MODE = bool(environ.get('EMOJI_MODE', True)) 
 PAID_STREAM = bool(environ.get('PAID_STREAM', True))
 
 # shortner infos
