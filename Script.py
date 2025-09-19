@@ -73,7 +73,7 @@ class script(object):
 
 ›› sᴛᴇᴘ 5 : sᴇɴᴅ /group_cmd ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴘʀᴏ Ғᴇᴀᴛᴜʀᴇs ʏᴏᴜ ᴡᴀɴᴛ.
 
-›› sᴛᴇᴘ 6 : ᴄᴏɴᴛᴀᴄᴛ ʙᴏᴛ ᴏᴡɴᴇʀ ᴛᴏ ᴏɴ ʏᴏᴜʀ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ. <a href=https://t.me/Morning006>Owner 😎</a>
+›› sᴛᴇᴘ 6 : earn
 
 ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀʟʟ ᴅᴇᴛᴀɪʟs ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
 
@@ -258,7 +258,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/MoviesEmpire_Backup">{file_name}</a>\n\n Powered By: @hdhub4u1bot </b>"""
+    CAPTION = """<b><a href="https://t.me/movie_new_movies_2025">{file_name}</a>\n\n Powered By: @Rulerboy_movie_bot</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
@@ -361,8 +361,8 @@ Requested by : {message.from_user.mention}</b>"""
 
 <blockquote>🎉 <b>ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍᴇᴛʜᴏᴅ 👇</b></blockquote>
 
-➤ 📷 Qʀ ᴄᴏᴅᴇ → <a href='https://graph.org/file/6e0d690ae363ba29e6931-3ff9af9e71cebab3b4.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>  
-➤ 💸 ᴜᴘɪ ɪᴅ → <code>{devpareek001@axl}</code>
+➤ 📷 Qʀ ᴄᴏᴅᴇ → <a href='https://graph.org/file/906b9366e3c55189170d1-8b037209396b840621.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>  
+➤ 💸 ᴜᴘɪ ɪᴅ → <code>{aashishkushwah8619@ptyes}</code>
 
 ‼️ <b>ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴅᴏɴᴀᴛɪɴɢ.</b>
 """
