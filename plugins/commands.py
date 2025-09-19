@@ -94,7 +94,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('☆ 𝔄ᴅᴅ 𝔐ᴇ 𝔗ᴏ 𝔜ᴏᴜʀ 𝔊ʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('𝙼ᴏ𝚜ᴛ 𝚂ᴇᴀʀᴄʜ 🔍', callback_data="topsearch"),
+                    InlineKeyboardButton('Movie Group 🔍', url="https://t.me/movie_new_movies_2025"),
                     InlineKeyboardButton('𝔓ʀᴇᴍɪᴜᴍ 🎫', callback_data="premium"),
                 ],[
                     InlineKeyboardButton('ℋᴇʟᴘ ⚙️', callback_data='help'),
