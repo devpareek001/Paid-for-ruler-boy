@@ -28,7 +28,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # pics for bots
 
-PICS = (environ.get('PICS', 'https://graph.org/file/82224bd9fb82955f59e9f-946f7bf88ccade7aed.jpg https://graph.org/file/9d178c720074c6e13b66d-fceee1e8455bd86e0f.jpg https://graph.org/file/5db2382459f3dcaea240a-b0b3d29811a7227da7.jpg https://graph.org/file/626ee6e3b12630697924f-bb9d4aacbbe38415bd.jpg https://graph.org/file/32ce8a14701db278510a4-fb408ce7db4aebeccb.jpg https://graph.org/file/996f44b5ba51a5cf384f8-60817dfbe9f3d5f926.jpg https://graph.org/file/d62db0f1e1ca7c00b9c84-5c262aeabd4d104645.jpg https://graph.org/file/5105d2d949304523c00ef-2d703fd3d5f8e3d3c7.jpg https://graph.org/file/f60ad193597645330b192-5c5fa0215ba6c6a073.jpg https://graph.org/file/5a4e0cd4e05ed51bef118-f4a96e965a36231e5f.jpg https://graph.org/file/0c0a0a1f226bd8123775b-6d50af5f20dcdcc405.jpg https://graph.org/file/a480495135131c07a789a-a943fdad64a788cc8b.jpg https://graph.org/file/6b256570a9d389dbb428a-5b08b055559e8ac48e.jpg')).split() 
+PICS = (environ.get('PICS', 'https://graph.org/file/d2b4fbc10923c825b037e-ac27673bae2d6ff200.jpg https://graph.org/file/4fc1d46c8b40058b9714d-57d383f64a58acf677.jpg')).split() 
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/8002ab2a32b625a0bca90-2820e4c45072dd29d9.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
@@ -62,7 +62,7 @@ USE_SINGLE_INVITE_LINK = is_enabled('USE_SINGLE_LINK', True)
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tomjerry:tomjerry@cluster0.oyuljsa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SilentXBotz_files')
-MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), False) # Type True For Turn On MULTIPLE DB FUNTION 
+MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Demo22:Demo22@cluster0.pj7etfj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "432"))
 
