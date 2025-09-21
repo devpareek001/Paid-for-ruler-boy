@@ -260,7 +260,11 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/movie_new_movies_2025">{file_name}</a>\n\n Powered By: @Rulerboy_movie_bot</b>"""
+    CAPTION = """<b><a href="https://t.me/rulerbackup">{file_name}</a>
+
+Powered By: @movies_2025_xx
+
+Backup: @ottupdatelelo2</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
