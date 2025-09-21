@@ -1351,7 +1351,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('☆ 𝔄ᴅᴅ 𝔐ᴇ 𝔗ᴏ 𝔜ᴏᴜʀ 𝔊ʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Movie Group 🔍', url="https://t.me/movie_new_movies_2025"),
+                    InlineKeyboardButton('Movie Group 🔍', url=GRP_LNK),
                     InlineKeyboardButton('𝔓ʀᴇᴍɪᴜᴍ 🎫', callback_data="premium"),
                 ],[
                     InlineKeyboardButton('ℋᴇʟᴘ ⚙️', callback_data='help'),
@@ -1377,8 +1377,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "show_channels":
         keyboard = InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("𝙼𝚊𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 🦋", url="https://t.me/movie_new_movies_2025"),
-                InlineKeyboardButton("𝙱𝚊𝚌𝚔𝚞𝚙 𝙲𝚑𝚊𝚗𝚗𝚎𝚕🦋", url="https://t.me/+wysJJ-qrzF1jMWU1")
+                InlineKeyboardButton("𝙼𝚊𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 🦋", url="https://t.me/movies_2025_xx"),
+                InlineKeyboardButton("𝙱𝚊𝚌𝚔𝚞𝚙 𝙲𝚑𝚊𝚗𝚗𝚎𝚕🦋", url="https://t.me/rulerbackup")
             ],
             [
                 InlineKeyboardButton("𝚂𝚞𝚙𝚙𝚘𝚛𝚝 Grp🦋", url="https://t.me/+7e7jpfbA2580MTZl"),
