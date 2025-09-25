@@ -71,7 +71,7 @@ DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "432"))
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movies_2025_xx')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+7e7jpfbA2580MTZl')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Ruler_boy')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+7e7jpfbA2580MTZl')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+70V3dfJ1nyg5ZjA9')
 
 # Auth Channels
 
