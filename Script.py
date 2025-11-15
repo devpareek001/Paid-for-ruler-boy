@@ -197,14 +197,12 @@ Nᴀᴍᴇ - {}
     
     PREMIUM_TEXT = """<blockquote>🎖️ <b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs</b></blockquote>
 
-   🔅₹30  1 𝗺𝗼𝗻𝘁𝗵𝘀
-   🔅₹80  2 𝗺𝗼𝗻𝘁𝗵𝘀
+   🔅₹50  1 𝗺𝗼𝗻𝘁𝗵𝘀
+   🔅₹90  2 𝗺𝗼𝗻𝘁𝗵𝘀
    🔅₹120 3 𝗺𝗼𝗻𝘁𝗵𝘀
-   🔅₹160 3 𝗺𝗼𝗻𝘁𝗵𝘀
+   🔅₹200 6 𝗺𝗼𝗻𝘁𝗵𝘀
    🔅₹350 1 year 
-
-
-
+ 
 •─────•─────────•─────•
 🏷️ <a href='https://t.me/+jqu94hwfXh83OGU1'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
 
@@ -225,7 +223,7 @@ Nᴀᴍᴇ - {}
 
 ʏᴏᴜ ᴄᴀɴ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ , ɴᴇᴛ ʙᴀɴᴋɪɴɢ.
 
-💳 ᴜᴘɪ ɪᴅ - <code>aashishkushwah8619@ptyes</code>
+💳 ᴜᴘɪ ɪᴅ - <code>shishkushwah8619-2@okicici </code>
 
 💢 ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 
@@ -368,7 +366,7 @@ Requested by : {message.from_user.mention}</b>"""
 <blockquote>🎉 <b>ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍᴇᴛʜᴏᴅ 👇</b></blockquote>
 
 ➤ 📷 Qʀ ᴄᴏᴅᴇ → <a href='https://graph.org/file/906b9366e3c55189170d1-8b037209396b840621.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>  
-➤ 💸 ᴜᴘɪ ɪᴅ → <code>{aashishkushwah8619@ptyes}</code>
+➤ 💸 ᴜᴘɪ ɪᴅ → <code>{shishkushwah8619-2@okicici }</code>
 
 ‼️ <b>ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴅᴏɴᴀᴛɪɴɢ.</b>
 """
