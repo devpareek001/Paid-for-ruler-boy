@@ -1377,7 +1377,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "show_channels":
         keyboard = InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("𝙼𝚊𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 🦋", url="https://t.me/movies_2025_xx"),
+                InlineKeyboardButton("𝙼𝚊𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 🦋", url=GRP_LNK),
                 InlineKeyboardButton("𝙱𝚊𝚌𝚔𝚞𝚙 𝙲𝚑𝚊𝚗𝚗𝚎𝚕🦋", url="https://t.me/rulerbackup")
             ],
             [
