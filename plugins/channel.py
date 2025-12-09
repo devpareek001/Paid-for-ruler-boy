@@ -152,7 +152,7 @@ async def get_imdb_details(name):
         return {}
 
 async def fetch_movie_poster(title: str, year: Optional[int] = None) -> Optional[str]:
-    base_url = "https://image.silentxbotz.tech/api/v1/poster"
+    base_url = "https://image.silentxbotz.tech/api/v2/poster"
     params = {"title": title.strip()}    
     if year is not None:
         params["year"] = str(year)
